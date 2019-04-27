@@ -6,14 +6,15 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css" type="text/css" />
-        
-        
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
         <script type="text/javascript">
             (function(){
                  emailjs.init("user_MFNuHm2TnixrcFzlF2t8B");
             })();
         </script>
+        
+        
         
     </head>
 
@@ -29,7 +30,7 @@
                     <li><span class="glyphicon glyphicon-record"></span><strong>Name: </strong>Salha Saad</li>
                     <li><span class="glyphicon glyphicon-record"></span><strong>Job: </strong>Research Associate</li>
                     <li><span class="glyphicon glyphicon-record"></span><strong>Company: </strong>Cardiff University</li>
-                    <li><span class="glyphicon glyphicon-record"></span><strong>Email: </strong>SaadS1@cardiff.ac.uk</li>
+                    <li><span class="glyphicon glyphicon-record"></span><strong>Email: </strong><a href="mailto:SaadS1@cardiff.ac.uk">SaadS1@cardiff.ac.uk</a></li>
                     <li><span class="glyphicon glyphicon-record"></span><strong>Skype: </strong>Salha.Saad4</li>
                     
                 </ul>
@@ -57,7 +58,7 @@
                             </ul>
                             
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a target="_blank" href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://github.com/plxsas/FirstMileStoneProject/tree/master"><i class="fa fa-github"></i></a></li>
                                 <li><a target="_blank" href="https://uk.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a target="_blank" href="https://www.skype.com/en/"><i class="fa fa-skype"></i></a></li>
                             </ul>
@@ -73,7 +74,7 @@
                                     <div class="center-form">
                                         <h4> Contact me</h4>
                                         
-                                        <form id="contact_form" onsubmit="return sendMail(this);" onAfterSubmit="this.reset();">
+                                        <form id="contact_form" onsubmit="return sendMail(this);" method="post">
                                             <div class="form-group">
                                                 <div>
                                                     <label class="control-label" for="fname">Name:</label>
@@ -94,7 +95,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <div>
-                                                    <button type="button" value="Submit" id="btnsubmit" class="btn btn-secondary center-block">Send Project Request</button>
+                                                    <button type="submit" value="Submit" id="btnsubmit" class="btn btn-secondary center-block">Send Project Request</button>
                                                     <!--<input type="button" value="Submit" id="btnsubmit" onclick="submitForm()">-->
                                                 </div>
                                             </div>
@@ -106,17 +107,17 @@
                                 
                                 <div class="column">
                                     <div class="contact-info">
-                                        <h4>Contact informations</h4>
+                                        <h4><strong>Contact address: </strong></h4>
                                         <p><strong>Address:</strong> MRC Centre for Neuropsychiatric Genetics & Genomics, School of Medicine, Cardiff University, Hadyn Ellis Building, Maindy Road, CF24 4HQ</p>
                                         <p><strong>Phone:</strong> +44 29206 88393</p>
                                         <p><strong>Job:</strong> Research Associate</p>
-                                        <p><strong>Email:</strong> SaadS1@cardiff.ac.uk</p>
+                                         <!--<p><strong>Email:</strong> SaadS1@cardiff.ac.uk</p>>-->
+                                        <p><strong>Email: </strong><a href="mailto:SaadS1@cardiff.ac.uk">SaadS1@cardiff.ac.uk</a></p>
                                     <div>
-                                        <a target="_blank" href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
-                                        <a target="_blank" href="https://uk.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                                        <a target="_blank" href="https://www.skype.com/en/"><i class="fa fa-skype"></i></a>
-                                        <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
-                                        <a target="_blank" href="https://www.youtube.com/?gl=GB&hl=en-GB"><i class="fa fa-youtube"></i></a>
+                                        <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa_2 fa fab fa-github"></i></a>
+                                        <a target="_blank" href="https://uk.linkedin.com/"><i class="fa_2 fa fa-linkedin"></i></a>
+                                        <a target="_blank" href="https://www.skype.com/en/"><i class="fa_2 fa fa-skype"></i></a>
+                                        
                                     </div>
                                     </div>
                                     
@@ -125,16 +126,9 @@
                                 
                             </div>
                             
+                            <div id="map" style="width:600px; height:450px; margin-left: 70px; margin-bottom: 40px;"></div>
                             
                             
-                            <div>
-                                <h4 class="contact_map">Contact Map</h4>
-                                <div class="mapouter">
-                                    <div class="gmap_canvas">
-                                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=CF24%204HQ&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a href="https://www.pureblack.de">pureblack.de</a>
-                                </div>
-                                </div>
-                            </div>
                         
                         </div>
                     </article>
@@ -153,8 +147,13 @@
             </div>
         </div>
         
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+        <script src="maps.js"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_sMHBD5moxS_M9YoQh0u9rBGi6rw6A00&callback=initMap" async defer></script>
+        <script src="Email_send_notice.js"></script> 
         
-        <script src="Email_send_notice.js"></script>   
     </body>
     
 </html>
