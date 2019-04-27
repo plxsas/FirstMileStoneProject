@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        
+        <!--<script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.1/email.min.js"></script>-->
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.1/email.min.js"></script>
         <script type="text/javascript">
             (function(){
                  emailjs.init("user_MFNuHm2TnixrcFzlF2t8B");
             })();
         </script>
-        
         
         
     </head>
@@ -74,7 +74,7 @@
                                     <div class="center-form">
                                         <h4> Contact me</h4>
                                         
-                                        <form id="contact_form" onsubmit="return sendMail(this);" method="post">
+                                        <form id="contact_form" onsubmit="sendMail(); return false">
                                             <div class="form-group">
                                                 <div>
                                                     <label class="control-label" for="fname">Name:</label>
@@ -84,7 +84,7 @@
                                             <div class="form-group">
                                                 <div>
                                                     <label class="control-label" for="email">Email:</label>
-                                                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                                                    <input type="text" name="emailaddress" class="form-control" id="email" placeholder="Email" required/>
                                                 </div>
                                             </div>
                                            <div class="form-group">
@@ -147,12 +147,15 @@
             </div>
         </div>
         
-        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+        
+        <!--<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>-->
         <script src="maps.js"></script>
         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_sMHBD5moxS_M9YoQh0u9rBGi6rw6A00&callback=initMap" async defer></script>
-        <script src="Email_send_notice.js"></script> 
+        
+
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script src="Email_send_notice_2.js"></script> 
         
     </body>
     
