@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Imprima', sans-serif;
-    color: black;
+    font-family: 'Abel';
+    color: rgb(54, 49, 49);
     line-height: 1.8;
     background-color: #f2f2f3;
+    font-size: 17px;
     
     
     
@@ -19,7 +20,7 @@ body{
 }
 
 nav ul li {
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Abel';
     color: black;
 }
 
@@ -74,7 +75,8 @@ ul li {
 }
 
 #parent {
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Abel';
+    
 }
 
 #parent button a:hover {
@@ -231,11 +233,11 @@ article h2 {
     padding-bottom: 20px;
     padding-top: 20px;
     text-transform: capitalize;
-    font-family: 'Cantata One', serif;
+    font-family: 'Abel';
 }
 
 article h3, h4, p {
-    font-family: 'Cantata One', serif;
+    font-family: 'Abel';
 }
 
 p {

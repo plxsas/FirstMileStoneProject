@@ -1,22 +1,32 @@
-#Haley Schafer Portfolio
+#Salha Saad Portfolio
 Stream One Project: User-Centric Frontend Development - Code Institute
 
-This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
+This is my portfolio webpage to pitch my potential to respective employers. I have highlighted number of research projects that I have solely run or taken part of during my PhD and as a current research associate. It also contain a brief introduction about my background, research interests and analytical and coding skills. 
 
-Demo
-A live demo can be found here.
 
-Desktop Demo
 
 UX
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel.
 
-For employers, I wanted to provide them with a brief overview of myself and my capabilities via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
+Throughout the four pages of my design I made it as easy as possible for the user to access the information and follow have enjoyable experience. Each of the four nav bar titles were made clear and suggestive of what each page contains. As a researcher, my potential employers will be from any of the Higher Education institutes and thus I have tried to follow more of an academic style which is reflected in the balance between white and very light gray background. To be consistent regarding the visual presentation of my features, the nav bar and all of the button have green background color and white color font. 
+
+On each page, I have divided the layout into two containers, one for the webpage logo with my photo, name, job tile and an email link with whichever email service the user has on her of his system. The aim was to make clear to the user who is owning the site. There is also a button to download my CV in a new blank page. The second container contents vary depending on which page is clicked. For example, on the home page, user should find more about whom am I and what my research background and interests and what statistical, genetics and coding skills are. 
+
+The second page summarizes both my work and education history. Specifically, it mentions the different academic roles and an academic institute I have worked for. I have tried to be visual as possible by presenting my statistical and coding skill with logos instead. On the publication page, I have used cards elements with a relevant image to the publication topic that does animate when mouse hoover it. There is also read more option at the right button of the card for the user to click on to find further information. Each one of these publication is linked with the article webpage location. 
+
+The contact page has three main elements. A contact form that is linked with my email. I have used both EmailJS and javaScript to receive a notification whenever the form gets submitted. I have applied the required option on each of the input box that without fill in it, the form will not be submitted. Once the person submit the request, he or she should see alert window on the top of the page saying the form has been submitted. The button text will also change from submit to sent as a confirmation. The second element on the right is my work address. Here I have used bootstrap grid with row and column division. The last diiv has a google map of my work location. Again, I have used JavaScript code to achieve that. Please see my JavaScript code files. As well in the nav bar, my contact page also has a link to my linkedIn, github and Skype page. 
+
+
 
 Technologies
 HTML
 CSS
 Bootstrap (3.3.7)
+JQuery 
+JavaScript
+EmailJS
+Google Map API
+
+
 Features
 This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design.
 
