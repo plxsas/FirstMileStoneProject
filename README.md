@@ -17,7 +17,8 @@ The contact page has three main elements. A contact form that is linked with my 
 
 
 
-Technologies
+Technologies:
+
 HTML
 CSS
 Bootstrap (3.3.7)
@@ -28,10 +29,14 @@ Google Map API
 
 
 Features
-This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design.
+This site uses bootstrap col class and grid to divide each page into features and the hights and the width of each container control it size where should be placed. 
+
 
 Features Left to Implement
-In the future, I would like to add further projects that I've worked on to create a more comprehensive 'work/travail' section. I would like to also add animations to the progress circles in the "skills/compétences" section to animate on a hover.
+
+In the future, I would like to add further projects that I am currently working on as well adding couple of scientific blogs and links to publicly open genetic data that will be much helpful to my website users. I would also to make more use of JQuery to add animation on my home and resume pages and change the nav bar to hamburger style on small devices. My personal photo is not of high quality and definitely will be replaced with a better image. I will also implement style with some image as static background when scrolling up and down the page. 
+
+
 
 Testing
 The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer.
