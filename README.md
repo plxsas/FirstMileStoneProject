@@ -7,13 +7,16 @@ This is my portfolio webpage to pitch my potential to respective employers. I ha
 
 UX
 
-Throughout the four pages of my design I made it as easy as possible for the user to access the information and follow have enjoyable experience. Each of the four nav bar titles were made clear and suggestive of what each page contains. As a researcher, my potential employers will be from any of the Higher Education institutes and thus I have tried to follow more of an academic style which is reflected in the balance between white and very light gray background. To be consistent regarding the visual presentation of my features, the nav bar and all of the button have green background color and white color font. 
+Throughout the four pages of my design I made it as easy as possible for the user to access the information and have enjoyable experience. Each of the four nav bar titles were made clear and suggestive of what each page contains. As a researcher, my potential employers will be from anyone of the Higher Education research institutes and thus I have tried to follow more of an academic style which is reflected in the balance between white and very light gray background. To be consistent with the visual presentation of my features, the nav bar and all of the buttons have green background color and white color font. 
 
-On each page, I have divided the layout into two containers, one for the webpage logo with my photo, name, job tile and an email link with whichever email service the user has on her of his system. The aim was to make clear to the user who is owning the site. There is also a button to download my CV in a new blank page. The second container contents vary depending on which page is clicked. For example, on the home page, user should find more about whom am I and what my research background and interests and what statistical, genetics and coding skills are. 
+On each page, I have divided the layout into two containers, one for the website logo with my photo, name, job tile and an email link. The aim was to make clear to the user who is owning the site. There is also a button to download my CV in a new blank page. The second container contents vary depending on which page is clicked. For example, on the home page, user should find more about whom am I and what my research background and interests and what statistical, genetics and coding skills are. 
 
 The second page summarizes both my work and education history. Specifically, it mentions the different academic roles and an academic institute I have worked for. I have tried to be visual as possible by presenting my statistical and coding skill with logos instead. On the publication page, I have used cards elements with a relevant image to the publication topic that does animate when mouse hoover it. There is also read more option at the right button of the card for the user to click on to find further information. Each one of these publication is linked with the article webpage location. 
 
-The contact page has three main elements. A contact form that is linked with my email. I have used both EmailJS and javaScript to receive a notification whenever the form gets submitted. I have applied the required option on each of the input box that without fill in it, the form will not be submitted. Once the person submit the request, he or she should see alert window on the top of the page saying the form has been submitted. The button text will also change from submit to sent as a confirmation. The second element on the right is my work address. Here I have used bootstrap grid with row and column division. The last diiv has a google map of my work location. Again, I have used JavaScript code to achieve that. Please see my JavaScript code files. As well in the nav bar, my contact page also has a link to my linkedIn, github and Skype page. 
+The contact page has three main elements. A contact form that is linked with my email. I have used both EmailJS and javaScript to receive a notification whenever the form gets submitted. I have applied the required option on each of the input box that without fill in it, the form will not be submitted. Once the person submit the request, he or she should see alert window on the top of the page saying the form has been submitted. The button text will also change from submit to sent as a confirmation. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. 
+
+
+The second element on the right is my work address. You can view both the live version and the GitHub repository by clicking on the Font Awesome icons.. Here I have used bootstrap grid with row and column division. The last div has a google map of my work location. Again, I have used JavaScript code to achieve that. Please see my JavaScript code files. As well in the nav bar, my contact page also has a link to my linkedIn, github and Skype page. 
 
 
 
@@ -34,7 +37,7 @@ This site uses bootstrap col class and grid to divide each page into features an
 
 Features Left to Implement
 
-In the future, I would like to add further projects that I am currently working on as well adding couple of scientific blogs and links to publicly open genetic data that will be much helpful to my website users. I would also to make more use of JQuery to add animation on my home and resume pages and change the nav bar to hamburger style on small devices. My personal photo is not of high quality and definitely will be replaced with a better image. I will also implement style with some image as static background when scrolling up and down the page. 
+In the future, I would like to add further projects that I am currently working on as well adding couple of scientific blogs and links to publicly open genetic data that will be much helpful to my website users. I would also like to make more use of JQuery to add animation on my home and resume pages and change the nav bar to hamburger style on small devices. My personal photo is not of high quality and definitely will be replaced with a better image. I will also implement style with some image as static background when scrolling up and down the page. 
 
 
 
@@ -43,11 +46,10 @@ The employer and recruiter user story achieved the intended outcome of providing
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
 
-All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'download' attribute. All links have been manually tested to ensure that they are pointing to the correct destination.
+All links will open in a new tab using 'target="_blank"'. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that background-attachment: fixed was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in a media query.
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
 
 Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
