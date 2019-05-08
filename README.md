@@ -7,9 +7,9 @@ This is my portfolio webpage to pitch my potential to respective employers. I ha
 
 UX
 
-Throughout the four pages of my design I made it as easy as possible for the user to access the information and have enjoyable experience. Each of the four nav bar titles were made clear and suggestive of what each page contains. As a researcher, my potential employers will be from anyone of the Higher Education research institutes and thus I have tried to follow more of an academic style which is reflected in the balance between white and very light gray background. To be consistent with the visual presentation of my features, the nav bar and all of the buttons have green background color and white color font. 
+Throughout the four pages of my design I have made it as easy as possible for the user to access the information and have enjoyable experience. Each of the four nav bar titles were made clear and suggestive of what each page contains. As a researcher, my potential employers will be from anyone of the Higher Education research institutes and thus I have tried to follow more of an academic style which is reflected in the balance between white and very light gray background. To be consistent with the visual presentation of my features, the nav bar and all of the buttons have green background color and white color font. 
 
-On each page, I have divided the layout into two containers, one for the website logo with my photo, name, job tile and an email link. The aim was to make clear to the user who is owning the site. There is also a button to download my CV in a new blank page. The second container contents vary depending on which page is clicked. For example, on the home page, user should find more about whom am I and what my research background and interests and what statistical, genetics and coding skills are. 
+On each page, I have divided the layout into two containers, one for the website logo with my photo, name, job tile and an email link. The aim was to make it clear to the user who is owning the site. There is also a button to download my CV in a new blank page. The second container contents vary depending on which page is clicked. For example, on the home page, user should find more about who am I and what my research background and interests and what statistical, genetics and coding skills are. 
 
 The second page summarizes both my work and education history. Specifically, it mentions the different academic roles and an academic institute I have worked for. I have tried to be visual as possible by presenting my statistical and coding skill with logos instead. On the publication page, I have used cards elements with a relevant image to the publication topic that does animate when mouse hoover it. There is also read more option at the right button of the card for the user to click on to find further information. Each one of these publication is linked with the article webpage location. 
 
@@ -42,32 +42,31 @@ In the future, I would like to add further projects that I am currently working 
 
 
 Testing
-The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer.
 
-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
+I have asked few people for a feedback on my website in terms of its relevancy and clarity. The feedback was good and the website achieved the intended outcome of providing the employer and collaborator a shoot of myself and my research work. One of the feedback was that my website layout and features are presented in the most concise and meaningful way. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the nav bar and in contact page. They are also able to download my CV by clicking on the download button on the left panel of each page. 
+
+
+The submission form on the contact page will not be successfully submitted until all of the input field filled. This is done by adding 'required' attribute to 'name', 'email' and 'message' fields. 
 
 All links will open in a new tab using 'target="_blank"'. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
+
+I have validated both html files and css file on Markup Validation Service and made the suggested adjustment accordingly. 
+
+
+
 
 Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/plxsas/FirstMileStoneProject.git into your terminal. 
+
+
+
 
 Credits
 Content
-All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me.
+All content in the "About Me" and "Work/Education history" sections in this portfolio site were written by me.
 
-Media
-All photos were taken from Pexels, a stock image library, with the exception of the photo of myself in the background of the 'about me/À Propos' section in the desktop view. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme.
 
-Acknowledgements
-The scrollSpy delay JavaScript function was found through this tutorial here.
-
-The progress circles from the skills section are modeled after the following Stack Overflow example. They were significantly modified to fit the styling, sizing, and progress for each skill.
-
-The media query for the collapsed navbar regardless of viewport width was taken from this site.
-
-This is for educational use.
